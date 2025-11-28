@@ -46,22 +46,6 @@ Onde:
 * **noise** — ruído estimado
 * **snr** — qualidade real do link
 
----
-
-## 📂 Local onde o arquivo é salvo
-
-O arquivo é gravado dentro da flash, no caminho:
-
-```
-/spiffs/wifi_log.txt
-```
-
-Para ler o conteúdo, você pode:
-
-* Imprimir pelo Serial (adicionando função de leitura)
-* Usar ferramentas do ESP-IDF para exportar SPIFFS
-* Criar um endpoint web (opcional)
-
 ## ▶️ Como executar
 
 1. Instale o **ESP-IDF** (v5.x recomendado).
