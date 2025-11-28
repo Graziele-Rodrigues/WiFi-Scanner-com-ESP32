@@ -1,0 +1,19 @@
+{
+  "idf.portWin": "COM15",
+  "idf.espIdfPathWin": "C:\\Users\\cgraz\\esp\\v5.4.2\\esp-idf",
+  "idf.toolsPathWin": "C:\\Users\\cgraz\\.espressif",
+  "idf.pythonInstallPath": "C:\\Users\\cgraz\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32"
+  },
+  "clangd.path": "C:\\Users\\cgraz\\.espressif\\tools\\esp-clang\\esp-18.1.2_20240912\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=C:\\Users\\cgraz\\.espressif\\tools\\riscv32-esp-elf\\esp-14.2.0_20241119\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe",
+    "--compile-commands-dir=c:\\Users\\cgraz\\esp\\v5.4.2\\esp-idf\\examples\\get-started\\hello_world\\build"
+  ],
+  "idf.flashType": "UART"
+}
