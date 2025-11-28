@@ -1,6 +1,6 @@
 # 📡 WiFi Scanner com ESP32
 
-Este projeto realiza varreduras periódicas de redes Wi-Fi com um ESP32, calcula o **SNR (Signal-to-Noise Ratio)** de cada rede detectada e salva os resultados em um arquivo **wifi_log.txt** dentro da partição **SPIFFS**.
+Este projeto realiza varreduras periódicas de redes Wi-Fi com um ESP32, calcula o **SNR (Signal-to-Noise Ratio)** de cada rede detectada e salva os resultados em um arquivo **wifi_log.txt**
 
 O objetivo é analisar a qualidade de redes Wi-Fi próximas, registrando métricas úteis como RSSI, canal, segurança, ruído estimado e SNR.
 
